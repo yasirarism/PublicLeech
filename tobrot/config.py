@@ -53,7 +53,7 @@ class Config:
     ))
     EDIT_SLEEP_TIME_OUT = int(get_config(
         "EDIT_SLEEP_TIME_OUT",
-        1
+        55
     ))
     MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START = int(get_config(
         "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START",
@@ -73,7 +73,7 @@ class Config:
     # Destination folder for the rclone
     R_CLONE_DEST = get_config("R_CLONE_DEST", "/PublicLeech")
     # because, https://t.me/c/1494623325/5603
-    SHOULD_USE_BUTTONS = get_config("SHOULD_USE_BUTTONS", True)
+    SHOULD_USE_BUTTONS = get_config("SHOULD_USE_BUTTONS", False)
     #
     LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "PublicLeech.log")
     #
@@ -84,5 +84,5 @@ class Config:
     #
     DIS_ABLE_ST_GFC_COMMAND_I = get_config(
         "DIS_ABLE_ST_GFC_COMMAND_I",
-        False
+        True
     )
