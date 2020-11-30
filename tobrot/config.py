@@ -53,11 +53,11 @@ class Config:
     ))
     EDIT_SLEEP_TIME_OUT = int(get_config(
         "EDIT_SLEEP_TIME_OUT",
-        55
+        5
     ))
     MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START = int(get_config(
         "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START",
-        600
+        400
     ))
     MAX_TG_SPLIT_FILE_SIZE = int(get_config(
         "MAX_TG_SPLIT_FILE_SIZE",
